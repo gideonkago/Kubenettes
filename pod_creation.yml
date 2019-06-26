@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod
+  labels:
+   zone: prod
+   version: v1
+spec:
+  containers:
+  - name: sample-ctr
+    image: devops/masoko:sample
+    ports:
+    - containerPort: 808
