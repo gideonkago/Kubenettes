@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: sample-ctr
-    image: devops/masoko:sample
+    image: devops/shop:sample
     ports:
     - containerPort: 808
