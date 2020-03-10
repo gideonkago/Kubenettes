@@ -11,6 +11,6 @@ spec:
   spec:
    containers:
    - name: sample-pod
-     image: devops/masoko:sample
+     image: devops/shop:sample
      ports:
      - containerPort: 8080
